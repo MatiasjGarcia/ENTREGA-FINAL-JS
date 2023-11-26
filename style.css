@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(./assets/img/Fondodios.jpg);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fffefe;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    background-color: #413726;
+    text-align: center;
+    color: burlywood;
+    text-shadow: 3px 3px 3px white;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(15, 15, 15);
+    text-shadow: 3px 3px 3px white;
+}
+
+h3 {
+    text-align: center;
+    text-shadow: 3px 3px 3px white;
+}
+
+#productos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+
+#productos div {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #f1f1f1;
+}
+
+button {
+    background-color: #a38c6e;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+    button:hover {
+    background-color: #413726;
+}
+
+#carrito {
+    text-align: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+}
+
+#carrito li {
+    text-align: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+#total {
+    font-weight: bold;
+}
+
+p{
+    text-align: center;
+}
+
+.logo{
+    text-align: center;
+}
